@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "Anim State Tracing",
+	"Description": "Professional animation tracing system that adds bone capsule collision detection during animation sequences. Includes AnimNotify states and actor components for precise collision tracking and gameplay integration.",
+	"Category": "Animation",
+	"CreatedBy": "Chris Talucci",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"RequiresBuildPlatform": false,
+	"Modules": [
+		{
+			"Name": "AnimStateTracing",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android"
+			]
+		}
+	],
+	"Plugins": [],
+	"EngineVersion": "5.5.0"
+}
